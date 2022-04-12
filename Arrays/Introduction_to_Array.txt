@@ -1,0 +1,23 @@
+Introduction to Array
+
+Advantages of using Array Data Structure is
+  1. Cache Friendly
+  2. Random Access
+  3. Contiguous memory location
+  
+Types of Arrays
+  1. Fixed Size
+  2. Dynamic Size
+  
+  1. Fixed Size: Array
+      a. int[] arr = new int(size);
+      b. int arr[] = {10,20,30,40};
+      c. int[] arr = new int[1000];
+  
+  2. Dynamic size: Linked List
+      a. Initially it allocates to some capacity, once capacity is full. It just creates double the capacity size
+         and copies the elements from old array to newly created array.
+         
+  In java Arrays are alocated at heap so it becomes always easy for the allocation of memory in java
+  not that complicated compared to C++ or C.
+  
