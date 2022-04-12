@@ -17,7 +17,19 @@ Types of Arrays
   2. Dynamic size: Linked List
       a. Initially it allocates to some capacity, once capacity is full. It just creates double the capacity size
          and copies the elements from old array to newly created array.
+         1. ArrayList<Integer> al = new ArrayList<Integer>();
+         2. ArrayList<Integer> al = new Arraylist<Integer>(10);
+         3. ArrayList<Integer> al = new ArrayList<integer>(am);   // am results to some container (arraylist, hashset, etc) 
+      b. Advantages of Arraylist over Normal Arrays.
+        1. Dynamic Size
+        2. Rich Library Functions
          
   In java Arrays are alocated at heap so it becomes always easy for the allocation of memory in java
   not that complicated compared to C++ or C.
   
+Useful links regarding ArrayList: 
+  1. ArrayList Syntax: https://ide.geeksforgeeks.org/4JP4AdiUSz
+  2. Using ArrayList as Arrays(Internal Working):https://ide.geeksforgeeks.org/BOz9kratJZ
+  3. ArrayList with EnsureCapacity Method: https://ide.geeksforgeeks.org/C2FrC2BYHD
+Insert: https://ide.geeksforgeeks.org/7qP8h4Uvfm
+Search (Unsorted Array): https://ide.geeksforgeeks.org/G5RUNYH2kY
