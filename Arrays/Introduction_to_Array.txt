@@ -33,3 +33,13 @@ Useful links regarding ArrayList:
   3. ArrayList with EnsureCapacity Method: https://ide.geeksforgeeks.org/C2FrC2BYHD
 Insert: https://ide.geeksforgeeks.org/7qP8h4Uvfm
 Search (Unsorted Array): https://ide.geeksforgeeks.org/G5RUNYH2kY
+
+Operations and Their Time Complexity:
+  1. Insert: O(n)
+  2. Searching: O(n) for Unsorted Array
+                O(logn) for Sorted Array
+  3. Delete: O(n)
+  4. Get ith Element: O(1)
+  5. Update ith Element: O(1)
+  
+  Insert at the end and Delete from the end with O(1) Time Complexity.
